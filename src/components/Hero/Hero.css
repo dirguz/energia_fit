@@ -1,4 +1,138 @@
 .hero{
     display: flex;
     justify-content: space-between;
+    padding-left: 1rem;
+}
+
+.left{
+    padding: 1rem;
+    padding-top: 0.5rem;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.right{
+    flex: 1;
+    position: relative;
+    background-color: var(--orange);
+}   
+
+.right>.btn{
+    position: absolute;
+    right: 3rem;
+    top: 2rem;
+    color: black;
+}
+
+.best{
+    margin-left: 2rem;
+    margin-top: 2rem;
+    background-color:#363d42;
+    border-radius: 4rem;
+    width: fit-content;
+    padding: 20px 13px;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.best>span{
+    z-index: 2;
+}
+.best>div{
+    position: absolute;
+    background-color: var(--orange);
+    width: 5.4rem;
+    height: 80%;
+    left: 8px;
+    border-radius: 3rem;
+    z-index: 1;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: rgb(14, 155, 21);
+    text-overflow: inherit;
+}
+
+.text>div:nth-of-type(3){
+    font-size: 1.2rem;
+    font-weight: 200;
+    text-transform: none;
+    letter-spacing: 1px;
+    width: 80%;
+}
+
+.figures{
+    display: flex;
+    gap: 2rem;
+}
+
+.figures>div{
+    display: flex;
+    flex-direction: column;
+}
+
+.figures>div>span:nth-of-type(1){
+    color: white;
+    font-size: 1.5rem;
+}
+
+.figures>div>span:nth-of-type(2){
+    color:2b2e29 ;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-shadow:1px 1px 2px black, 0 0 1em #f48915, 0 0 0.2em #f48915;
+}
+
+.buttons{
+    display: flex;
+    gap: 1rem;
+    font-weight: normal;
+}
+
+.buttons>:nth-of-type(1){
+    color:white;
+    background-color: var(--orange);
+    width: 8rem;
+}   
+
+.buttons>:nth-of-type(2){
+    color:white;
+    background-color: transparent;
+    width: 8rem;
+    border: 2px solid var(--orange);
+} 
+
+.heart{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    background-color: var(--darkGrey);
+    width: fit-content;
+    padding: 1rem;
+    align-items: start;
+    border-radius: 5px;
+    position: absolute;
+    right: 4rem;
+    top: 7rem;
+}
+
+.heart>:nth-child(2){
+    color: var(--gray);
+}
+
+.heart>:nth-child(3){
+    color: white;
+    font-size: 1.5rem;
 }
