@@ -1,6 +1,9 @@
 import React from 'react'
 import Header from '../Header/Header'
 import heart from '../../assets/heart.png'
+import hero from '../../assets/hero_image.png'
+import heroback from '../../assets/hero_image_back.png'
+import calories from '../../assets/calories.png'
 import './Hero.css'
 
 function Hero() {
@@ -45,6 +48,15 @@ function Hero() {
             <img src={heart} alt="heart rate" />
             <span>Heart Rate</span>
             <span>116 bpm</span>
+          </div>
+          <img src={hero} alt="hero-image" className='hero_img' />
+          <img src={heroback} alt="hero-back" className='hero_back'/>
+          <div className="calories">
+            <img src={calories} alt="calories" />
+            <div>
+              <span>Calories Burned</span>
+              <span>220 kcal</span>
+            </div>
           </div>
         </div>
     </div>

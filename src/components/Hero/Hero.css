@@ -128,11 +128,61 @@
     top: 7rem;
 }
 
+.heart>img{
+    width: 2rem;
+}
+
 .heart>:nth-child(2){
     color: var(--gray);
 }
 
 .heart>:nth-child(3){
+    color: white;
+    font-size: 1.5rem;
+}
+
+.hero_img{
+    position: absolute;
+    top: 10rem;
+    right: 8rem;
+    width: 23rem;
+}
+
+.hero_back{
+    position: absolute;
+    top: 4rem;
+    right: 20rem;
+    z-index: -1;
+    width: 15rem;
+}
+
+.calories{
+    display: flex;
+    gap: 2rem;
+    background-color: var(--caloryCard);
+    border-radius: 5px;
+    padding: 1rem;
+    width: fit-content;
+    position: absolute;
+    top: 35rem;
+    right: 35rem;
+}
+
+.calories > img{
+    width: 3rem;
+}
+
+.calories > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.calories > div >:nth-child(1){
+    color: var(--gray);
+}
+
+.calories > div >:nth-child(2){
     color: white;
     font-size: 1.5rem;
 }
