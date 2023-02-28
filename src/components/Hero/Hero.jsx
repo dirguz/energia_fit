@@ -5,6 +5,7 @@ import hero from '../../assets/hero_image.png'
 import heroback from '../../assets/hero_image_back.png'
 import calories from '../../assets/calories.png'
 import './Hero.css'
+import Products from '../Products/Products'
 
 function Hero() {
   return (
