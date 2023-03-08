@@ -1,0 +1,47 @@
+{
+    "result":[
+        {
+            "id":1,
+            "title":"Barras One",
+            "description":"20gr de proteína y solo 1 gr de azúcar, libres de gluten y con buen contenido de fibra.",
+            "image":"https://images2.imgbox.com/2b/88/kLSxo5qV_o.jpg"
+        },
+        {
+            "id":2,
+            "title":"Espagueti con Quinua",
+            "description":"Vegana, libre de colesterol, sin colorantes, sin conservantes y sin azúcar añadido",
+            "image":"https://images2.imgbox.com/c0/6c/6CAfiQlu_o.jpg"
+        },
+        {
+            "id":3,
+            "title":"Obleas de Amaranto",
+            "description":"Sin azúcar, sin lactosa, 70 calorías por porción, Libres de Gluten. El snack perfecto, delicioso y saludable. Disponibles en varios sabores",
+            "image":"https://images2.imgbox.com/67/15/DearfBOv_o.jpg"
+        },
+        {
+            "id":4,
+            "title":"Capuccino Vegano",
+            "description":"Premezcla en polvo de Capuccino Vegano narunafoods, No contiene azúcar, Ideal para veganos o personas con alergia a la lactosa. Premezcla de leche de almendras, coco, soya, moringa y café ",
+            "image":"https://images2.imgbox.com/f6/c6/UFqNLHE4_o.jpg"
+        },
+        {
+            "id":5,
+            "title":"Golden Milk",
+            "description":"Receta milenaria proveniente de la India fortalece tu sistema inmune y otorga balance y bienestar a tu cuerpo.",
+            "image":"https://images2.imgbox.com/9e/ea/xiK09FUT_o.jpg"
+        },
+        {
+            "id":6,
+            "title":"Harina de arroz integral",
+            "description":"Una harina saludable y versátil pues puedes preparar tanto recetas dulces como de sal.",
+            "image":"https://images2.imgbox.com/db/b9/hoO14dbc_o.jpg"
+        },
+        {
+            "id":7,
+            "title":"Mantequilla clarificada Ghee",
+            "description":"Mejor conocido como “oro líquido”, el Ghee es un producto milenario común en India y proviene de la mantequilla pura de vaca que pasa por un proceso largo de clarificación y da lugar a la separación de las gradas sólidas, las impurezas, en su mayoría la lactosa y la caseína.",
+            "image":"https://images2.imgbox.com/b8/9b/B62o9sxU_o.jpg"
+        }
+
+    ]
+}

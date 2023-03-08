@@ -1,0 +1,71 @@
+.carousel-container{
+    display:flex;
+    vertical-align: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.slide-container{
+    height: 80%;
+    width: 100%;
+    border-radius: 30px;
+    overflow:hidden;
+    position: relative;
+    cursor: pointer;
+    /* border: 1px solid black; */
+}
+.slide-container > img{
+    height: 100%;
+    width: 100%;
+    transition: all 0.2s ease-in-out;
+}
+.slide-container:hover > img{
+    transform: scale(1.2);
+    opacity: 0.7;
+}
+
+.slide-desc{
+    background-color: var(--orange);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 70%;
+    padding-left: 30px;
+    border-top-left-radius: 20px;
+    opacity: 0.7;
+}
+.slide-desc > span{
+    color: white;
+    display: block;
+    font-size: 22px;
+    padding: 20px 0 20px 10px;
+}
+
+.BrainhubCarousel__arrows{
+    border-radius: 50%;
+    margin: 10px;
+    background: white !important;
+}
+.BrainhubCarousel__arrows > span{
+    border-color: black !important;
+}
+.BrainhubCarousel__arrows:hover{
+    background-color: #e24349 !important;
+}
+.BrainhubCarousel__arrows:hover > span{
+    background-color: #e24349 !important;
+}
+
+@media only screen and (max-width: 960px) {
+    .carousel-container{
+        flex-direction: column;
+    }
+    .carousel-title{
+        width: 100%;
+        text-align: center;
+        padding: 50px 0 50px 0;
+    }
+    .slide-container{
+        width: 100%;
+    }
+}

@@ -1,4 +1,5 @@
 import React from 'react'
+import Slider from '../Slider/Slider.jsx'
 import './Products.css'
 
 function Products() {
@@ -7,7 +8,10 @@ function Products() {
       <div className="product-header">
          <span>conoce</span>
          <span>los productos</span>
-         <span>que tenemos</span>
+         <span>que ofrecemos</span>
+      </div>
+      <div>
+        <Slider/>
       </div>
     </div>
   )
