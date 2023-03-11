@@ -1,7 +1,7 @@
 import React from 'react'
 import './Slider.css'
 import datos from '../../assets/Productos/datos.json'
-
+import { Link } from 'react-router-dom'
 
 let slides = datos.result.map(s=>{
     return(
@@ -10,7 +10,9 @@ let slides = datos.result.map(s=>{
         <div className='slide-desc'>
             <span>{s.title}</span>
         </div>
+        <p>{s.description}</p>
     </div>)
 });
+
 
 export default slides;

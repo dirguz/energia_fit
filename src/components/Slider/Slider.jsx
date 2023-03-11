@@ -18,12 +18,12 @@ function Slider() {
               numberOfSlides: 4,
             },
           },
-          {
-            resolve: autoplayPlugin,
-            options: {
-              interval: 2000,
-            }
-          }
+          // {
+          //   resolve: autoplayPlugin,
+          //   options: {
+          //     interval: 3000,
+          //   }
+          // }
         ]}
         slides={Slides}
         offset={50}
