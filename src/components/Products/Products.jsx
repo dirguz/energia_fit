@@ -6,9 +6,9 @@ function Products() {
   return (
     <div className="products" id="products">
       <div className="product-header">
-         <span>conoce</span>
-         <span className='stroke-text'>los productos</span>
-         <span>que ofrecemos</span>
+         <span className='stroke-text'>conoce</span>
+         <span>los productos</span>
+         <span className='stroke-text'>que ofrecemos</span>
       </div>
       <div>
         <Slider/>

@@ -10,7 +10,7 @@ let slides = datos.result.map(s=>{
         <div className='slide-desc'>
             <span>{s.title}</span>
         </div>
-        <p>{s.description}</p>
+        <p>{s.description.substr(0, 150) + "..."}</p>
     </div>)
 });
 
