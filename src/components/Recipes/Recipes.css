@@ -1,0 +1,77 @@
+.recetas{
+    display: flex;
+    gap: 1rem;
+    padding: 0 2rem;
+}
+
+.l-recetas{
+    display: flex;
+    flex: 1 1;
+    gap: 2rem;
+    flex-direction: column;
+    text-transform: uppercase;
+    color: white;
+}
+
+.l-recetas>:nth-child(1){
+    color: var(--orange);
+    font-weight: bold;
+}
+
+.l-recetas>:nth-child(2){
+    font-size: 2rem;
+}
+
+.l-recetas>:nth-child(3){
+    font-size: 1.5rem;
+    text-transform: none;
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+
+.r-recetas{
+    flex: 1;
+    position: relative;
+}
+
+.r-recetas>img{
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    object-fit: cover;
+    right: 8rem;
+    top: 2rem;
+}
+
+.r-recetas>:nth-child(1){
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    border: 2px solid var(--orange);
+    background-color: transparent;
+    right: 9rem;
+    top: 0.9rem;
+}
+
+.r-recetas>:nth-child(2){
+    position: absolute;
+    width: 17rem;
+    height: 19rem;
+    right: 7rem;
+    top: 4rem;
+    background: var(--planCard);
+}
+
+.arrows{
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    bottom: 1rem;
+    left: 3rem;
+}
+
+.arrows>img{
+    width: 1.5rem;
+    cursor: pointer;
+}
