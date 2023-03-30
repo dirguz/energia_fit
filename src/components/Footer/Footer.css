@@ -1,0 +1,59 @@
+.f-container{
+    position: relative;
+    padding: 0 2rem;
+}
+
+.f-container>hr{
+    border: 1px solid var(--lightgray);
+}
+
+.inter{
+    display: flex;
+    flex-direction: row;
+}
+.footer{
+    padding: 1rem 2rem;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+}
+
+.social{
+    display: flex;
+    gap: 4rem;
+}
+
+.social>a>img{
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.f-logo>img{
+    width: 10rem;
+}
+
+.derechos{
+    display: flex;
+    gap: 2rem;
+    text-transform: uppercase;
+}
+.derechos>a>img{
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.derechos>a:nth-child(3){
+    font-size: 10px;
+}
+
+.listado{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
