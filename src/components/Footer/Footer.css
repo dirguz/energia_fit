@@ -12,39 +12,40 @@
     flex-direction: row;
 }
 .footer{
-    padding: 1rem 2rem;
+    padding: 0 2rem;
     display: flex;
     flex: 1;
     flex-direction: column;
-    gap: 1.5rem;
     align-items: center;
     justify-content: center;
-    height: 20rem;
+    height: 25rem;
 }
 
 .social{
     display: flex;
-    gap: 4rem;
+    gap: 2rem;
 }
 
 .social>a>img{
-    width: 2rem;
-    height: 2rem;
+    width: 4rem;
+    height: 4rem;
     cursor: pointer;
 }
 
 .f-logo>img{
-    width: 10rem;
+    width: 13rem;
+    height: 14rem;
 }
 
 .derechos{
+    padding: 1rem;
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     text-transform: uppercase;
 }
 .derechos>a>img{
-    width: 2rem;
-    height: 2rem;
+    width: 3rem;
+    height: 3rem;
     cursor: pointer;
 }
 
