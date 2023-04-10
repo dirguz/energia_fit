@@ -5,6 +5,7 @@ import facebook from '../../assets/facebook.png'
 import github from '../../assets/github.png'
 import logo from '../../assets/Logo.png'
 import Mapa from '../Map/Map.jsx'
+import whatsapp from '../../assets/whatsapp.png'
 
 
 
@@ -24,6 +25,9 @@ function Footer() {
             <div className="social">
               <a href='https://www.facebook.com/energia.fitmarket' target='_blank' rel="noreferrer">
                 <img src={facebook} alt="" />
+              </a>
+              <a href='https://api.whatsapp.com/send?phone=573209990649&text=Hola%20Energ%C3%ADaFit%2C%20quiero%20informaci%C3%B3n%20sobre...%20' target='_blank' rel="noreferrer">
+                <img src={whatsapp} alt="" />
               </a>
               <a href='https://www.instagram.com/energia.fitmarket/' target='_blank' rel="noreferrer">
                 <img src={instagram} alt="" />
