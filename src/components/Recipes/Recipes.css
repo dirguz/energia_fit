@@ -20,6 +20,8 @@
 
 .l-recetas>:nth-child(2){
     font-size: 2rem;
+    color:#fa5042;
+    font-weight: bold;
 }
 
 .l-recetas>:nth-child(3){
@@ -28,6 +30,7 @@
     text-align: justify;
     letter-spacing: 2px;
     line-height: 40px;
+    color: var(--darkGrey);
 }
 
 .r-recetas{
@@ -74,4 +77,9 @@
 .arrows>img{
     width: 1.5rem;
     cursor: pointer;
+}
+
+.receta-blur{
+    width: 30rem;
+    height: 23rem;
 }

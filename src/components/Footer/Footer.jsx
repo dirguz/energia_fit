@@ -22,6 +22,7 @@ function Footer() {
             <Mapa/>
         </div>
         <div className="footer">
+        <div className="blur foot-blur"></div>
             <div className="social">
               <a href='https://www.facebook.com/energia.fitmarket' target='_blank' rel="noreferrer">
                 <img src={facebook} alt="" />

@@ -58,3 +58,9 @@
     flex-direction: column;
     flex: 1;
 }
+
+.foot-blur{
+    width: 50rem;
+    height: 23rem;
+   
+}

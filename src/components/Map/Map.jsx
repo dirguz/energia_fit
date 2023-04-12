@@ -6,7 +6,7 @@ import './Mapa.css'
 function Mapa() {
     const position=[5.718037,-72.925670]
   return (
-    <>
+    <div>
       <MapContainer center={position} zoom={30} scrollWheelZoom={true} className='mapa'>
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -18,7 +18,7 @@ function Mapa() {
           </Popup>
         </Marker>
       </MapContainer>
-    </>
+    </div>
   );
 }
 

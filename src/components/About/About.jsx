@@ -1,21 +1,18 @@
 import React from 'react'
 import './About.css'
-import pic1 from '../../assets/pic1.jpg'
-import pic2 from '../../assets/pic2.jpg'
-import pic3 from '../../assets/pic3.jpg'
-import pic4 from '../../assets/pic4.jpg'
 import comida from '../../assets/comida.png'
 
 function About() {
   return (
     <div className="about" id='about'>
       <div className="l-about">
-        <img src={pic3} alt="" />
-        <img src={pic2} alt="" />
-        <img src={pic1} alt="" />
-        <img src={pic4} alt="" />
+        <img src="https://images2.imgbox.com/f7/bf/u2A8dbYi_o.jpg" alt="imgbox" />
+        <img src="https://images2.imgbox.com/42/18/jlS2gbFp_o.jpg" alt="imgbox" />
+        <img src="https://images2.imgbox.com/0a/ec/aOqQgjCf_o.jpg" alt="imgbox" />
+        <img src="https://images2.imgbox.com/8d/51/fIWJO3sR_o.jpg" alt="imgbox" />
       </div>
       <div className="r-about">
+        <div className="blur about-blur"></div>
         <span>Quienes somos</span>
         <div>
           <span className='stroke-text'>energia</span>
