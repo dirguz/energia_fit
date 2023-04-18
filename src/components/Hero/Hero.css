@@ -84,7 +84,7 @@
 }
 
 .figures>div>span:nth-of-type(1){
-    color: white;
+    color: var(--darkGrey);
     font-size: 1.8rem;
 }
 
@@ -108,7 +108,7 @@
 }   
 
 .buttons>:nth-of-type(2){
-    color:white;
+    color:black;
     background-color: transparent;
     width: 8rem;
     border: 2px solid var(--orange);
@@ -191,4 +191,76 @@
     width: 22rem;
     height: 30rem;
     left: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .hero{
+        flex-direction: column;
+    }  
+    
+    .hero-blur{
+        width: 14rem;
+    }
+
+    .best{
+        margin-top: 0;
+        font-size: small;
+        align-self: center;
+        transform: scale(0.8);
+    }
+
+    .text{
+        font-size: xx-large;
+        align-items: center;
+        justify-content: center;
+    }
+    .text>div:nth-of-type(3){
+        font-size: 0.8rem;
+        font-weight: 200;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    .figures{
+        justify-content: center;
+    }
+    .figures>div>span:nth-of-type(1){
+        font-size: 1rem;
+        text-align: center;
+    }
+    .figures>div>span:nth-of-type(2){
+        font-size: 0.9rem;
+    }
+    .right{
+        position: relative;
+        background: none;
+    }
+    .heart{
+        left: 1rem;
+        top: 2rem;
+    }
+    .calories{
+        position: relative;
+        top: 5rem;
+        left: 2rem;
+    }
+    .calories>img{
+        width: 2rem;
+    }
+    .calories>div>:nth-child(2){
+        color: white;
+        font-size: 1rem;
+    }
+    .hero_img{
+        position: relative;
+        width: 15rem;
+        left: 7rem;
+        top: 4rem;
+        align-self: center;
+    }
+    .hero_back{
+        width: 13rem;
+        left: 2rem;
+        top: 2rem;
+    }
+
 }

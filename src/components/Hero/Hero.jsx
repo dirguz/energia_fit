@@ -9,6 +9,7 @@ import { motion } from 'framer-motion'
 
 function Hero() {
   const transition={type:'spring',duration:2}
+  const mobile=window.innerWidth<=768 ? true : false;
   return (
     <div className='hero'>
       <div className="blur hero-blur"></div>
@@ -16,7 +17,7 @@ function Hero() {
             <Header/>
             <div className="best">
               <motion.div 
-              initial={{left: '260px'}}
+              initial={{left: mobile ? '165px':'260px'}}
               whileInView={{left: '8px'}}
               transition={{...transition, type:'tween'}}>
               </motion.div>
@@ -45,8 +46,8 @@ function Hero() {
               </div>
             </div>
             <div className="buttons">
-              <button className='btn'>Get start</button>
-              <button className='btn'>Learn More</button>
+              <button className='btn'>Productos</button>
+              <button className='btn'>Contacto</button>
             </div>
         </div>
         <div className="right">
