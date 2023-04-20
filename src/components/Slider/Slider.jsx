@@ -1,6 +1,6 @@
 import React from 'react'
 import './Slider.css'
-import Carousel,{ slidesToShowPlugin, autoplayPlugin } from "@brainhubeu/react-carousel"
+import Carousel,{ slidesToShowPlugin, autoplayPlugin, slidesToScrollPlugin } from "@brainhubeu/react-carousel"
 import "@brainhubeu/react-carousel/lib/style.css"
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
@@ -44,19 +44,30 @@ function Slider() {
           // }
         ]}
         slides={slides}
-        offset={50}
+        offset={20}
         breakpoints={{
-          960: {
+          770: {
             plugins: ["infinite",
               {
-                resolve: slidesToShowPlugin,
+                resolve: slidesToScrollPlugin,
                 options: {
                   numberOfSlides: 1
                 }
               }
             ]
+          },
+          900: {
+            plugins: ["infinite",
+              {
+                resolve: slidesToShowPlugin,
+                options: {
+                  numberOfSlides: 2
+                }
+              }
+            ]
           }
-        }}
+        }
+      }
       />
     </div>
   );

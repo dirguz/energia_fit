@@ -76,9 +76,28 @@
     .carousel-container{
         flex-direction: column;
     }
-
     .slide-container{
-        width: 80%;
-        right: 1rem;
+        padding: 0;
     }
+    /* .BrainhubCarousel__arrows{
+        border-radius: 40%;
+        margin: 5px;
+        background: white !important;
+    } */
+    .slide-container{
+        width: 100%;
+        border-radius: 25px;
+    }
+    .slide-desc{
+        width: 50%;
+    }
+    .slide-desc > span{
+        font-size: 14px;
+        padding: 9px;
+    }
+    .slide-container > p{
+        font-size: 14px;
+        line-height: 15px;
+    }
+
 }
