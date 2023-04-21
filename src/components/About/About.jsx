@@ -4,7 +4,7 @@ import comida from '../../assets/comida.png'
 
 function About() {
   return (
-    <div className="about" id='about'>
+    <div className="about">
       <div className="l-about">
         <img src="https://images2.imgbox.com/f7/bf/u2A8dbYi_o.jpg" alt="imgbox" />
         <img src="https://images2.imgbox.com/42/18/jlS2gbFp_o.jpg" alt="imgbox" />
@@ -13,7 +13,7 @@ function About() {
       </div>
       <div className="r-about">
         <div className="blur about-blur"></div>
-        <span>Quienes somos</span>
+        <span id='about'>Quienes somos</span>
         <div>
           <span className='stroke-text'>energia</span>
           <span> - fit</span>

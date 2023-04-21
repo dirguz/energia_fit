@@ -64,3 +64,15 @@
     height: 23rem;
    
 }
+
+@media screen and (max-width: 768px) {
+    .inter{
+        flex-direction: column;
+    }
+    .footer{
+        padding: 1rem;
+    }
+    .f-logo{
+        align-self: center;
+    }
+}

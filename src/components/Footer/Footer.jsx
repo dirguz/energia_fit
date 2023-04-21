@@ -16,8 +16,8 @@ function Footer() {
       <div className="inter">
         <div className="listado">
             <span>Home</span>
+            <span>Quienes Somos</span>
             <span>Productos</span>
-            <span>Quienes somos</span>
             <span>Recetas</span>
             <Mapa/>
         </div>

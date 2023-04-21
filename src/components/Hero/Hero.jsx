@@ -51,7 +51,7 @@ function Hero() {
             </div>
         </div>
         <div className="right">
-          <button className="btn">Join Us</button>
+          {/* <button className="btn">Join Us</button> */}
           <motion.div className="heart"
             initial={{right: "-1rem"}}
             whileInView={{right: '4rem'}}

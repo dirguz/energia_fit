@@ -17,7 +17,7 @@ function Recipes() {
     <div className='recetas'>
         <div className="blur receta-blur"></div>
         <div className="l-recetas">
-            <span>Recetas</span>
+            <span>¿Que puedo comer?</span>
             <span>{recipes[selected]?.title.substr(0, 70) + "..."}</span>
             <motion.span
                key={selected}
@@ -26,7 +26,7 @@ function Recipes() {
                exit={{opacity:0, x:100}}
                transition={transition}
             >
-              {recipes[selected]?.summary.substr(0, 200) + "..."}
+              {recipes[selected]?.summary.substr(0, 300) + "..."}
             </motion.span>
         </div>
         <div className="r-recetas">

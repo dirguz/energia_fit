@@ -9,11 +9,17 @@
 }
 
 .header-menu{
-    list-style: none;
     display: flex;
-    align-items: center;
     gap: 2rem;
+    font-weight: bold;
+}
+.header-menu a{
+    height: 25px;
+    top: 3rem;
+    position: relative;
     color:#e24349;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 .header-menu>li{
@@ -23,4 +29,58 @@
 .header-menu>li:hover{
     color: var(--lightgray);
     cursor: pointer;
+}
+
+.toogle{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .header{
+        flex-direction: column;
+    }
+    .header-menu{
+        display: none;
+    }
+    .header-menu.open{
+        position: relative;
+        top: 1rem;
+        display: flex;
+        flex-direction: column;
+        height: -webkit-fill-avaliable;
+        transition: 0.3s linear all;
+        gap: 0;
+        align-items: center;
+    }
+    .header-menu a{
+        top: 0;
+    }
+    .toogle{
+        display: flex !important;
+        flex-direction: column;
+        margin-top: 1.5rem;
+        align-items: center;
+    }
+    .toogle span{
+        width: 30px;
+        height: 4px;
+        background:var(--orange);
+        margin-bottom: 5px;
+        border-radius: 2px;
+        transform-origin: 5px 0px;
+        transition: all 0.2s linear;
+    }
+    .toogle.open{
+        transform: translateY(20%);
+    }
+    .toogle.open>span{
+        transform: rotate(45deg) translate(0px, 2px);
+    }
+    .toogle.open>span:nth-child(3){
+        transform: rotate(-45deg) translate(5px, 2px);
+    }
+    .toogle.open>span:nth-child(4){
+        transform: rotate(-45deg) translate(5px, 2px);
+    }
+
 }
