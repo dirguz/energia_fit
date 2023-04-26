@@ -32,5 +32,15 @@
         gap: 1rem;
         font-size: 2rem;
         text-align: center;
+    }
+    .produ-blur-1{
+        width: 15rem;
+        height: 20rem;
+        left: 0rem;
+    }
+    .produ-blur-2{
+        width: 15rem;
+        height: 25rem;
+        right: 0;
     }    
 }

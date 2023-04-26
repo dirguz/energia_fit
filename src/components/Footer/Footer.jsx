@@ -15,10 +15,10 @@ function Footer() {
       <hr />
       <div className="inter">
         <div className="listado">
-            <span>Home</span>
-            <span>Quienes Somos</span>
-            <span>Productos</span>
-            <span>Recetas</span>
+          <a href='#'>Home</a>
+          <a href='#about'>Quienes Somos</a>
+          <a href='#'>Productos</a>
+          <a href='#'>¿Que puedo comer?</a>
             <Mapa/>
         </div>
         <div className="footer">

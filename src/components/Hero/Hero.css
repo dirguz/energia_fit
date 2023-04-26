@@ -196,10 +196,11 @@
 @media screen and (max-width: 768px) {
     .hero{
         flex-direction: column;
+        padding:0;
     }  
     
     .hero-blur{
-        width: 14rem;
+        width: 15rem;
     }
 
     .best{
@@ -209,7 +210,9 @@
         transform: scale(0.8);
         right: 1rem;
     }
-
+    .left{
+        padding: .5rem;
+    }
     .text{
         margin-top: -3rem;
         font-size: xx-large;
@@ -222,6 +225,9 @@
         font-weight: 200;
         letter-spacing: 1px;
         text-align: center;
+    }
+    .buttons{
+        justify-content: space-between;
     }
     .figures{
         justify-content: center;
@@ -244,7 +250,7 @@
     .calories{
         position: relative;
         top: 5rem;
-        left: 2rem;
+        left: 3rem;
     }
     .calories>img{
         width: 2rem;
@@ -255,15 +261,15 @@
     }
     .hero_img{
         position: relative;
-        width: 15rem;
+        width: 13rem;
         left: 7rem;
-        top: 4rem;
+        top: 5rem;
         align-self: center;
     }
     .hero_back{
         width: 13rem;
         left: 2rem;
-        top: 2rem;
+        top: 4rem;
     }
 
 }

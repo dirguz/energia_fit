@@ -47,7 +47,7 @@ function Slider() {
         offset={20}
         breakpoints={{
           770: {
-            plugins: ["infinite",
+            plugins: ["infinite","arrows",
               {
                 resolve: slidesToScrollPlugin,
                 options: {
@@ -57,7 +57,7 @@ function Slider() {
             ]
           },
           900: {
-            plugins: ["infinite",
+            plugins: ["infinite","arrows",
               {
                 resolve: slidesToShowPlugin,
                 options: {
