@@ -99,11 +99,13 @@
         font-size: 14px;
         line-height: 15px;
     }
+
     .BrainhubCarousel__arrows{
         border-radius: 25%;
-        margin: 2px;
-        position:fixed !important;
-
+        position:relative !important;
+        top: 11.3rem;
+        padding: 11px !important;
+        margin: 5px;
     }
 
 }
