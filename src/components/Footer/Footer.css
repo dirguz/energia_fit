@@ -57,6 +57,10 @@
     display: flex;
     flex-direction: column;
     flex: 1;
+    gap: 0.5rem;
+    font-weight: bold;
+    color:#e24349;
+    cursor: pointer;
 }
 
 .foot-blur{
@@ -71,8 +75,15 @@
     }
     .footer{
         padding: 1rem;
+        
     }
     .f-logo{
         align-self: center;
+    }
+    .listado{
+        align-items: center;
+    }
+    .social{
+        margin-top: 1rem;
     }
 }

@@ -244,13 +244,13 @@
         background: none;
     }
     .heart{
-        left: 1rem;
+        left: 2rem;
         top: 2rem;
     }
     .calories{
         position: relative;
         top: 5rem;
-        left: 3rem;
+        left: 5rem;
     }
     .calories>img{
         width: 2rem;
@@ -262,14 +262,14 @@
     .hero_img{
         position: relative;
         width: 13rem;
-        left: 7rem;
+        left: 10rem;
         top: 5rem;
         align-self: center;
     }
     .hero_back{
         width: 13rem;
-        left: 2rem;
-        top: 4rem;
+        left: 3rem;
+        top: 5rem;
     }
 
 }

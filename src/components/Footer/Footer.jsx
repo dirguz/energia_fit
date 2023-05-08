@@ -6,19 +6,40 @@ import github from '../../assets/github.png'
 import logo from '../../assets/Logo.png'
 import Mapa from '../Map/Map.jsx'
 import whatsapp from '../../assets/whatsapp.png'
+import { Link } from 'react-scroll';
 
 
 
 function Footer() {
   return (
     <div className='f-container'>
-      <hr />
+      <hr id='contact'/>
       <div className="inter">
         <div className="listado">
-          <a href='#'>Home</a>
-          <a href='#about'>Quienes Somos</a>
-          <a href='#'>Productos</a>
-          <a href='#'>¿Que puedo comer?</a>
+          <a><Link
+          to='home'
+          span={true}
+          smooth={true}
+          >Home</Link>
+          </a>
+          <a><Link
+          to='about'
+          span={true}
+          smooth={true}
+          >Quienes Somos</Link>
+          </a>
+          <a><Link
+          to='products'
+          span={true}
+          smooth={true}
+          >Productos</Link>
+          </a>
+          <a><Link
+          to='recipes'
+          span={true}
+          smooth={true}
+          >¿Que puedo comer?</Link>
+          </a>
             <Mapa/>
         </div>
         <div className="footer">
@@ -38,14 +59,15 @@ function Footer() {
              <img src={logo} alt="" />
            </div>
            <div className="derechos">
-             <p>Derechos reservados - 2023</p> 
+             <p>Copyright - 2023</p> 
              <a href='https://github.com/dirguz' target='_blank' rel="noreferrer">
               <img src={github} alt="" />
              </a>
-             <a href="https://www.flaticon.es/iconos-gratis/github" title="github iconos">iconos creados por Pixel perfect - Flaticon</a>
+             {/* <a href="https://www.flaticon.es/iconos-gratis/github" title="github iconos">iconos creados por Pixel perfect - Flaticon</a> */}
            </div>
         </div>
       </div>
+      <hr />
     </div>
   )
 }

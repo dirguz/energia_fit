@@ -6,8 +6,8 @@
 
 @media screen and (max-width: 768px) {
    .mapa{
-    width: 16rem;
-    height: 15rem;
+    width: 20rem;
+    height: 17rem;
     border-radius: 15px;
    }
 }

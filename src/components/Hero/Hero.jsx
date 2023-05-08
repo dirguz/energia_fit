@@ -6,6 +6,7 @@ import heroback from '../../assets/hero_image_back.png'
 import calories from '../../assets/calories.png'
 import './Hero.css'
 import { motion } from 'framer-motion'
+import CountUp from 'react-countup';
 
 function Hero() {
   const transition={type:'spring',duration:2}
@@ -33,11 +34,19 @@ function Hero() {
             </div>
             <div className="figures">
               <div>
-                <span>+20</span>
+                <span><CountUp 
+                end={20}
+                prefix="+ "
+                duration={4}
+                /></span>
                 <span>marcas</span>
               </div>
               <div>
-                <span>+100</span>
+                <span><CountUp
+                end={100}
+                prefix="+ "
+                duration={3}
+                /></span>
                 <span>productos</span>
               </div>
               <div>
@@ -45,10 +54,18 @@ function Hero() {
                 <span>recetas</span>
               </div>
             </div>
-            <div className="buttons">
-              <button className='btn'>Productos</button>
-              <button className='btn'>Contacto</button>
-            </div>
+            {/* <div className="buttons">
+              <button className='btn'><Link
+              to='products'
+              span={true}
+              smooth={true}
+              >Productos</Link></button>
+              <button className='btn'><Link
+              to='contact'
+              span={true}
+              smooth={true}
+              >Contacto</Link></button>
+            </div> */}
         </div>
         <div className="right">
           {/* <button className="btn">Join Us</button> */}

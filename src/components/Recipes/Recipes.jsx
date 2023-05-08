@@ -17,7 +17,7 @@ function Recipes() {
     <div className='recetas'>
         <div className="blur receta-blur"></div>
         <div className="l-recetas">
-            <span>¿Que puedo comer?</span>
+            <span id='recipes'>¿Que puedo comer?</span>
             <span>{recipes[selected]?.title.substr(0, 70) + "..."}</span>
             <motion.span
                key={selected}

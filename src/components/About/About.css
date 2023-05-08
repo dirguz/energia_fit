@@ -105,19 +105,19 @@
         margin-top: 2rem;
     }
     .l-about>:nth-child(1){
-        width: 8rem;
+        width: 10rem;
         height: 24rem;
     }
     .l-about>:nth-child(2){
-        width: 7rem;
+        width: 9rem;
         height: 10rem;
     }
     .l-about>:nth-child(3){
-        width: 7rem;
+        width: 9rem;
         height: 13rem;
     }
     .l-about>:nth-child(4){
-        width: 16rem;
+        width: 19.5rem;
         height: 10rem;
         grid-row: 3;
         grid-column: 1/3;
