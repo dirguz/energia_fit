@@ -1,10 +1,12 @@
 import React from 'react'
 import './Slider.css'
+import './NewCard.css'
 import Carousel,{ slidesToShowPlugin, autoplayPlugin, slidesToScrollPlugin } from "@brainhubeu/react-carousel"
 import "@brainhubeu/react-carousel/lib/style.css"
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { get_All } from '../Redux/actions'
+
 
 function Slider() {
 
@@ -14,13 +16,21 @@ function Slider() {
   const datos=useSelector(state=>state.products)
   let slides = datos.map(s=>{
     return(
-    <div className='slide-container'>
-        <img src={s.image} alt={s.title}/>
-        <div className='slide-desc'>
-            <span>{s.title}</span>
+      <article className="card">
+      <img
+        className="card__background"
+        src={s.image}
+        alt={s.title}
+        width="1920"
+        height="2193"
+      />
+      <div className="card__content | flow">
+        <div className="card__content--container | flow">
+          <h2 className="card__title">{s.title}</h2>
+          <p className="card__description">{s.description}</p>
         </div>
-        <p>{s.description.substr(0, 150) + "..."}</p>
-    </div>)
+      </div>
+    </article>)
 });
 
   return (
